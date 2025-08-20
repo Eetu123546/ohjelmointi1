@@ -8,6 +8,6 @@ summa = num1 + num2 + num3
 tulo = num1 * num2 * num3
 keskiarvo = summa / 3
 
-print(f"Summa: {summa:.2}")
-print(f"Tulo: {tulo:.2}")
-print(f"Keskiarvo: {keskiarvo:.2}")
+print(f"Summa: {summa}")
+print(f"Tulo: {tulo}")
+print(f"Keskiarvo: {keskiarvo}")
