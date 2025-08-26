@@ -19,8 +19,3 @@ elif suku == "nainen":
 
 else:
     print("sukupuoli annettu väärin")
-
-
-
-
-print("testi")
