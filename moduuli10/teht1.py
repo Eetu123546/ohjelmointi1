@@ -1,4 +1,4 @@
-from classes.hissi import Hissi
+from moduuli10.classes.hissi import Hissi
 
 hissi = Hissi(1,5)
 

@@ -1,4 +1,4 @@
-from hissi import Hissi
+from moduuli10.classes.hissi import Hissi
 
 class Talo:
     def __init__(self, alin_kerros, ylin_kerros, hissien_määrä):
