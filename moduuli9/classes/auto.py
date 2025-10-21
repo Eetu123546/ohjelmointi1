@@ -17,6 +17,6 @@ class Auto:
         else:
             self.nopeus = self.nopeus + self.arvo
 
-        # lisää arvo self nopeuteen
-        # tarkasta että nopeus ei ole yli huippunopeus
-        # tarkasta että nopeus ei ole alle nolla
+    def kulje(self, aika):
+        self.aika = aika
+        self.matka = self.aika * self.nopeus
