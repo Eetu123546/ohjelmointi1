@@ -12,3 +12,7 @@ class Talo:
 
     def aja_hissiä(self, hissin_numero, kohdekerros):
         self.hissit[hissin_numero].siirry_kerrokseen(kohdekerros)
+
+    def palohälytys(self):
+        for hissi in self.hissit:
+            hissi.siirry_kerrokseen(self.alin_kerros)
