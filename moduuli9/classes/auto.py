@@ -19,4 +19,7 @@ class Auto:
 
     def kulje(self, aika):
         self.aika = aika
-        self.matka = self.matka + self.aika * self.nopeus
+        if self.matka + self.aika * self.nopeus < 0:
+            self.matka = 0
+        else:
+            self.matka = self.matka + self.aika * self.nopeus
