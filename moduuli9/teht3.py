@@ -6,4 +6,4 @@ auto1.nopeus = 60
 auto1.matka = 2000
 auto1.kulje(1.5)
 
-print(auto1.matka)
+print(f"Auto on kulkenut {auto1.matka:.0f} km.")
