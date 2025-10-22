@@ -12,7 +12,7 @@ class Kilpailu:
         for auto in self.autot:
             auto.kulje(1)
 
-    def tulosta_tilanne(self, ):
+    def tulosta_tilanne(self):
         print(f"""
         {self.kilpailun_nimi} Tilanne:""")
         for auto in self.autot:
