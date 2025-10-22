@@ -25,3 +25,5 @@ class Kilpailu:
     def kilpailu_ohi(self):
         if any(auto.matka >= self.kilpailun_pituus for auto in self.autot):
             return True
+
+#a
